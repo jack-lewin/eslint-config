@@ -1,11 +1,12 @@
 {
   "name": "@jack-lewin/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint-config",
   "main": "index.js",
   "scripts": {
     "lint": "eslint '**/*.js'",
-    "test": "node ./bin/test.js"
+    "test": "node ./bin/test.js",
+    "publish": "npm publish --access public"
   },
   "peerDependencies": {
     "babel-eslint": "8.2.6",
